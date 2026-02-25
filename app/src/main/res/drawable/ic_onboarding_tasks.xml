@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Checklist icon for tasks -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M3,5h2V3H3v2zM3,13h2v-2H3v2zM7,7h14V5H7v2zM3,9h2V7H3v2zM7,13h14v-2H7v2zM3,17h2v-2H3v2zM7,19h14v-2H7v2z" />
+</vector>

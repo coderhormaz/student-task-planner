@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Planner</string>
+    <string name="tagline">Focus. Plan. Succeed.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_1_title">One place for all your deadlines</string>
+    <string name="onboarding_1_desc">Keep track of every assignment, exam, and project in one beautiful app.</string>
+    <string name="onboarding_2_title">Gentle nudges, never nagging</string>
+    <string name="onboarding_2_desc">Smart reminders that respect your time and keep you on track.</string>
+    <string name="onboarding_3_title">See your progress grow</string>
+    <string name="onboarding_3_desc">Track your productivity with beautiful stats and streak counters.</string>
+    <string name="onboarding_4_title">Offline-first, always ready</string>
+    <string name="onboarding_4_desc">Works without internet. Your tasks sync automatically when you\'re back online.</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+
+    <!-- Auth -->
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="google_sign_in">Continue with Google</string>
+
+    <!-- Home -->
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <string name="todays_focus">Today\'s Focus</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="no_tasks">No tasks yet</string>
+    <string name="no_tasks_desc">Tap + to add your first task</string>
+    <string name="task_completed">Task completed!</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="undo">Undo</string>
+
+    <!-- Task -->
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title">Task title</string>
+    <string name="task_description">Description (optional)</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_time">Due Time</string>
+    <string name="priority">Priority</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="category">Category</string>
+    <string name="sub_tasks">Sub-tasks</string>
+    <string name="add_sub_task">Add sub-task</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="share">Share</string>
+    <string name="mark_as_focus">Mark as Focus</string>
+    <string name="attachments">Attachments</string>
+
+    <!-- Calendar -->
+    <string name="calendar">Calendar</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+
+    <!-- Stats -->
+    <string name="statistics">Statistics</string>
+    <string name="completion_rate">Completion Rate</string>
+    <string name="weekly_streak">Weekly Streak</string>
+    <string name="subject_breakdown">Subject Breakdown</string>
+    <string name="focus_score">Focus Score</string>
+    <string name="tasks_over_time">Tasks Over Time</string>
+    <string name="keep_going">Keep going! You\'re doing great!</string>
+    <string name="almost_there">Almost there! Push a little more!</string>
+    <string name="amazing">Amazing work! Stay consistent!</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system_default">System Default</string>
+    <string name="amoled_black">AMOLED Black</string>
+    <string name="dynamic_colors">Dynamic Colors</string>
+    <string name="dynamic_colors_desc">Use colors from your wallpaper</string>
+    <string name="notifications">Notifications</string>
+    <string name="task_reminders">Task Reminders</string>
+    <string name="daily_summary">Daily Summary</string>
+    <string name="streak_reminders">Streak Reminders</string>
+    <string name="reduce_motion">Reduce Motion</string>
+    <string name="reduce_motion_desc">Disable confetti and heavy animations</string>
+    <string name="backup">Backup &amp; Sync</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="last_synced">Last synced: %s</string>
+    <string name="never_synced">Never synced</string>
+    <string name="about">About</string>
+    <string name="version">Version %s</string>
+    <string name="made_with">Made with focus in India</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_out_confirm">Are you sure you want to log out?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Errors -->
+    <string name="error_empty_title">Please enter a task title</string>
+    <string name="error_empty_email">Please enter your email</string>
+    <string name="error_empty_password">Please enter your password</string>
+    <string name="error_empty_name">Please enter your name</string>
+    <string name="error_password_mismatch">Passwords don\'t match</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_no_internet">No internet connection</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_avatar">Profile avatar</string>
+    <string name="cd_priority">Task priority: %s</string>
+    <string name="cd_complete_task">Complete task</string>
+    <string name="cd_add_task">Add new task</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_more_options">More options</string>
+</resources>

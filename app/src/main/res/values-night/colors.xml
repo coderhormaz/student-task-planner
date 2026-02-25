@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary">#9FA8DA</color>
+    <color name="primary_variant">#7986CB</color>
+    <color name="on_primary">#1A1A2E</color>
+    <color name="primary_container">#303F9F</color>
+    <color name="on_primary_container">#C5CAE9</color>
+
+    <!-- Secondary -->
+    <color name="secondary">#80CBC4</color>
+    <color name="secondary_variant">#4DB6AC</color>
+    <color name="on_secondary">#1A1A2E</color>
+    <color name="secondary_container">#00695C</color>
+    <color name="on_secondary_container">#B2DFDB</color>
+
+    <!-- Tertiary -->
+    <color name="tertiary">#EF9A9A</color>
+    <color name="on_tertiary">#1A1A2E</color>
+    <color name="tertiary_container">#C62828</color>
+    <color name="on_tertiary_container">#FFCDD2</color>
+
+    <!-- Surface -->
+    <color name="surface">#121212</color>
+    <color name="surface_variant">#1E1E2E</color>
+    <color name="on_surface">#E6E1E5</color>
+    <color name="on_surface_variant">#CAC4D0</color>
+    <color name="surface_container">#211F26</color>
+    <color name="surface_container_high">#2B2930</color>
+
+    <!-- Background -->
+    <color name="background">#121212</color>
+    <color name="on_background">#E6E1E5</color>
+
+    <!-- Error -->
+    <color name="error">#F2B8B5</color>
+    <color name="on_error">#601410</color>
+    <color name="error_container">#8C1D18</color>
+    <color name="on_error_container">#F9DEDC</color>
+
+    <!-- Outline -->
+    <color name="outline">#938F99</color>
+    <color name="outline_variant">#49454F</color>
+
+    <!-- Scrim -->
+    <color name="scrim">#66000000</color>
+
+    <!-- Priority Colors (desaturated for dark) -->
+    <color name="priority_low">#757575</color>
+    <color name="priority_medium">#64B5F6</color>
+    <color name="priority_high">#FF8A65</color>
+
+    <!-- Gradient -->
+    <color name="gradient_start">#303F9F</color>
+    <color name="gradient_end">#121212</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar">#121212</color>
+</resources>

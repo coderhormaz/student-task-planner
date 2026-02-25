@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Checkmark in circle - task planner icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,27c-14.91,0 -27,12.09 -27,27s12.09,27 27,27 27,-12.09 27,-27 -12.09,-27 -27,-27zM46.8,67.5L35.1,55.8l3.81,-3.81 7.89,7.86L64.09,42.57l3.81,3.83L46.8,67.5z" />
+</vector>
