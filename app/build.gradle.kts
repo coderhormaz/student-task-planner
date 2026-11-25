@@ -1,6 +1,21 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
 }
+
+val localProperties = Properties().apply {
+    val propertiesFile = rootProject.file("local.properties")
+    if (propertiesFile.exists()) {
+        propertiesFile.inputStream().use { localPropertiesInput ->
+            load(localPropertiesInput)
+        }
+    }
+}
+val supabaseUrl = localProperties.getProperty("supabase.url")
+    ?: throw GradleException("Missing supabase.url in local.properties")
+val supabaseAnonKey = localProperties.getProperty("supabase.anonKey")
+    ?: throw GradleException("Missing supabase.anonKey in local.properties")
 
 android {
     namespace = "com.hormaz.studentplanner"
@@ -15,9 +30,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // Supabase configuration
-        buildConfigField("String", "SUPABASE_URL", "\"SUPABASE_URL_PLACEHOLDER\"")
-        buildConfigField("String", "SUPABASE_ANON_KEY", "\"SUPABASE_ANON_KEY_PLACEHOLDER\"")
+        buildConfigField("String", "SUPABASE_URL", "\"$supabaseUrl\"")
+        buildConfigField("String", "SUPABASE_ANON_KEY", "\"$supabaseAnonKey\"")
     }
 
     signingConfigs {

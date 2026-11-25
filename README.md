@@ -1,37 +1,36 @@
 # Student Task Planner
 
-An Android task planner for students, written in Java with a Material You 3 design. The feature list below comes from the project's PRD (`prd.md`) — where it says "planned", that's the spec; it hasn't all been verified as implemented yet.
+Student Task Planner is an Android app written in Java. The [PRD](prd.md) is a design specification and includes proposed features that are not all implemented. The functionality listed below reflects the current code.
 
-## Features (planned, per PRD)
+## Current functionality
 
-The PRD in `prd.md` is the source of truth for what's planned. In outline, it's a student-focused planner:
+- Email and password sign-up and login.
+- Create, edit, complete, and delete tasks, with a title, optional description, due date and time, priority, category, and subtasks.
+- A home screen with the current date, task list, completion progress, and undo actions for task completion and deletion.
+- A calendar screen for choosing a date and viewing its tasks.
+- A statistics screen with task completion totals, a saved streak count, and a chart of completed tasks over the last seven days.
+- Settings for light/system or dark appearance, notification preferences, manual synchronization, and logging out.
+- Local task storage with Room and synchronization through Supabase.
 
-- Create, organise and track study tasks and assignments
-- Material You 3 interface — dynamic colour and modern Android components
+## Requirements
 
-For the full planned feature set, user flows and requirements, see `prd.md` in this repository.
+- Android Studio and a JDK compatible with the project's Gradle setup.
+- A Supabase project configured for the app.
 
-## Tech Stack
+## Configuration
 
-- Android, Java
-- Material You 3 (Material Design 3 components)
-- Gradle
+Add the Supabase project URL and anon key to the root `local.properties` file:
 
-## Getting Started
-
-Prerequisites: Android Studio and a JDK compatible with the project's Gradle setup.
-
-1. Open the project in Android Studio and let Gradle sync.
-2. Run it on an emulator or a connected device.
-
-Or build a debug APK from the command line:
-
-```bash
-./gradlew assembleDebug
+```properties
+supabase.url=YOUR_SUPABASE_URL
+supabase.anonKey=YOUR_SUPABASE_ANON_KEY
 ```
 
-The APK is generated under `app/build/outputs/apk/debug/`.
+The file is ignored by Git. Do not commit it. The Android Gradle plugin may also use `local.properties` for the local Android SDK path; keep any existing `sdk.dir` entry.
 
-## Notes
+## Build and run
 
-- Status: features above are described from the PRD, not from a verified run of the app — check `prd.md` against the code before relying on any individual feature being finished.
+1. Open the project in Android Studio and allow Gradle to sync.
+2. Run the app on an emulator or connected Android device.
+
+Build a debug APK from Android Studio using **Build > Build Bundle(s) / APK(s) > Build APK(s)**. The APK is generated under `app/build/outputs/apk/debug/`.
